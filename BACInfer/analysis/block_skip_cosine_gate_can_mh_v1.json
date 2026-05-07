@@ -1,0 +1,24 @@
+{
+  "mode": "cosine_similarity",
+  "default_by_type": {
+    "sa_block": {
+      "threshold_start": 0.965,
+      "threshold_end": 0.99,
+      "max_age": 6,
+      "eps": 1e-06
+    },
+    "mha_block": {
+      "threshold_start": 1.1,
+      "threshold_end": 1.1,
+      "max_age": 6,
+      "eps": 1e-06
+    },
+    "ff_block": {
+      "threshold_start": 0.965,
+      "threshold_end": 0.99,
+      "max_age": 6,
+      "eps": 1e-06
+    }
+  },
+  "blocks": {}
+}

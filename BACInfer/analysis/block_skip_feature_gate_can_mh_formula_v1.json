@@ -1,0 +1,24 @@
+{
+  "mode": "feature_distance",
+  "default_by_type": {
+    "sa_block": {
+      "score_formula": "delta_last_update_l2_over_input_l2",
+      "threshold": 0.6362470136254451,
+      "max_age": 6,
+      "eps": 1e-06
+    },
+    "mha_block": {
+      "score_formula": "delta_last_update_l2_over_input_l2",
+      "threshold": 0.5037535079968445,
+      "max_age": 6,
+      "eps": 1e-06
+    },
+    "ff_block": {
+      "score_formula": "delta_prev_l2_over_input_l2",
+      "threshold": 0.21853246329822484,
+      "max_age": 6,
+      "eps": 1e-06
+    }
+  },
+  "blocks": {}
+}
